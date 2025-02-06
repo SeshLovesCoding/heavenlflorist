@@ -1,0 +1,43 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--secondary-color);
+  animation: fadeInOut 5s ease-in-out infinite;
+}
+
+.loader-image {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  opacity: 0;
+  animation: bounceUpDown 1.5s ease-in-out infinite, fadeInOut 5s ease-in-out;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 2.5rem;
+  opacity: 0;
+  text-shadow: -1px -1px 28px rgba(0,0,0,0.49);
+  animation: fadeInOut 5s ease-in-out;
+}
+
+/* Bounce up and down animation */
+@keyframes bounceUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Fade-in and out effect */
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}

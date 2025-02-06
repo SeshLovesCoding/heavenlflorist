@@ -1,0 +1,61 @@
+.banner{
+    max-width: 100vw;
+    height: 350px;
+    margin: 50px 0;
+    border: 0px none;
+    border-radius: 20px;
+    background-color: gray;
+    position: relative;
+}
+
+/* FontAwesome WhatsApp Icon Color */
+.fab.fa-whatsapp {
+    color: var(--secondary-color) !important;  /* Icon color */
+    background-color: white;  /* White background for the icon */
+    border-radius: 50%;  /* Circular background */
+    padding: 10px;  /* Padding around the icon */
+    font-size: 24px;  /* Control the icon size */
+    display: inline-flex;  /* Use inline-flex for the icon container */
+    justify-content: center;  /* Center the icon horizontally */
+    align-items: center;  /* Center the icon vertically */
+    width: 40px;  /* Control the size of the circular background */
+    height: 40px;  /* Same as width to keep it circular */
+  }
+  
+  /* WhatsApp Button Styling */
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    width: 250px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: var(--primary-color);  /* Background color for button */
+    color: var(--text-default-color);  /* Text color */
+    gap: 8px;  /* Space between icon and text */
+  }
+  
+  .whatsapp-button:hover {
+    border: 1px solid var(--secondary-color);  /* Border color on hover */
+  }
+  
+  /* Icon and Text inside button */
+  .whatsapp-button i,
+  .whatsapp-button h5 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 23px;  /* Font size for both icon and text */
+  }
+  
+  .whatsapp-button h5 {
+    font-size: 19px;  /* Text size for h5 */
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;  /* Ensure h5 behaves like inline content */
+  }
+  
+  

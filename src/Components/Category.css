@@ -1,0 +1,20 @@
+.category-container{
+overflow: scroll;
+text-align: center;
+}
+
+.category-size{
+    width: 100px;
+    height: 100px;
+}
+
+.category-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bold-text-bold{
+    font-weight: bold;
+}

@@ -1,0 +1,69 @@
+.promotion-container {
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 40px 20px;
+  }
+  
+  .promotion-card-title {
+    margin-top: 20px;
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 4.05rem;
+    width: 73%;
+    height: fit-content;
+  }
+  
+  .secondary-color-span {
+    color: var(--secondary-color);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .promotion-card-title {
+      font-size: 3.5rem;
+      line-height: 1.1;
+    }
+  
+    .card {
+      height: 500px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .promotion-card-title {
+      font-size: 3rem;
+    }
+  
+    .promotion-container {
+      padding: 20px;
+    }
+  
+    .card {
+      height: 450px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .promotion-card-title {
+      font-size: 2.5rem;
+    }
+  
+    .card {
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .promotion-card-title {
+      font-size: 2rem;
+    }
+  
+    .card {
+      min-width: 100%;
+      height: 350px;
+    }
+  
+    .card-img-overlay {
+      padding-bottom: 80px;
+    }
+  }
+  

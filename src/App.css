@@ -1,0 +1,23 @@
+:root{
+    --primary-color: #ffe2e3;
+    --secondary-color: #ef9b96;
+    --text-default-color: #2d3739;
+}
+
+html { scroll-behavior: smooth; }
+
+html *
+{
+    font-family: "Poppins", serif;
+}
+
+#root{
+    background-color: #ffe2e3;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    color: var(--text-default-color);
+}
+

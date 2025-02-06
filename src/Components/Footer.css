@@ -1,0 +1,74 @@
+footer {
+    display: flex;
+    position: relative;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    min-height: 500px;
+    width: 100vw;
+    background-color: var(--secondary-color);
+}
+
+.footer-container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.bold-text-text{
+    font-weight: bold;
+}
+
+.florist-contact{
+    margin-top: 15px;
+    line-height: .3rem;
+    color: white;
+}
+
+.copyright-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-text{
+    font-weight: bold;
+    color: white;
+    text-align: end;
+}
+
+.footer-menu-text:hover{
+    color: var(--primary-color);
+}
+
+@media (max-width: 500px) {
+    footer{
+        min-height: 650px;
+    }
+    .footer-container{
+        flex-direction: column;
+        justify-content: start !important;
+    }
+
+    .florist-details{
+       text-align: center;
+       margin-top: 100px;
+    }
+
+    .footer-menu{
+        margin-top: 50px;
+    }
+
+    .footer-menu-text{ 
+        text-align: center;
+    }
+}
+
