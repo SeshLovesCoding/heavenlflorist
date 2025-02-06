@@ -1,15 +1,14 @@
-import React from "react";
-import 'animate.css';
-import "./Loader.css"; // Make sure to link the CSS file
+import logo from "../../image/logo-transparent.png";
 
 const Loader = () => {
   return (
     <div className="loader-container">
-      <img src="./src/image/logo-transparent.png" alt="Logo" className="loader-image" />
+      <img src={logo} alt="Logo" className="loader-image" />
       <p className="welcome-text">Welcome to HeavenLy Florist</p>
     </div>
   );
 };
 
 export default Loader;
+
 
