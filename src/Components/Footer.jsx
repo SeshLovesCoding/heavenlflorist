@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <div className="container d-flex footer-container">
                 <div className="col-lg-4 col-sm-6 florist-details">
-                <img src="/src/image/logo-transparent.png" style={{marginBottom:"15px",width:"100px",height:"100px",border:"1px solid #ef9b96",borderRadius:"50%",backgroundColor:"white"}} alt="" />
+                <img src="/image/logo-transparent.png" style={{marginBottom:"15px",width:"100px",height:"100px",border:"1px solid #ef9b96",borderRadius:"50%",backgroundColor:"white"}} alt="" />
                 <h4 className='bold-text-text text-white'>HeavenL Florist</h4>
                 <div className="florist-contact">
                 <p className='bold-text-text'>Phone number: +60123452857</p>
