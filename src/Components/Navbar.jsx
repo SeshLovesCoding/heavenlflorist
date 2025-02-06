@@ -8,7 +8,7 @@ function Navbar(){
     <a className="navbar-brand d-flex align-items-center" href="#">
       <img
         className="logo me-2"
-        src="/src/image/logo-transparent.png"
+        src="/image/logo-transparent.png"
         alt="Logo"
         width="40"
         height="40"
