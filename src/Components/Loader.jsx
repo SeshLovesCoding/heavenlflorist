@@ -1,14 +1,15 @@
-import logo from "../../image/logo-transparent.png";
+import './Loader.css';
 
 const Loader = () => {
   return (
     <div className="loader-container">
-      <img src={logo} alt="Logo" className="loader-image" />
+      <img src="/image/logo-transparent.png" alt="Logo" className="loader-image" />
       <p className="welcome-text">Welcome to HeavenLy Florist</p>
     </div>
   );
 };
 
 export default Loader;
+
 
 
