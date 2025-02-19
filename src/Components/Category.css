@@ -1,5 +1,4 @@
 .category-container{
-overflow: scroll;
 text-align: center;
 }
 
@@ -17,4 +16,17 @@ text-align: center;
 
 .bold-text-bold{
     font-weight: bold;
+}
+
+@media (max-width: 992px){
+.category-container{
+        overflow-x: auto;
+        text-align: center;
+        scroll-padding-left: 20px;
+    }
+
+    .category-card:first-child {
+        margin-left: 80px;
+    }
+    
 }

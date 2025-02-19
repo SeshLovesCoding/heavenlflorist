@@ -1,0 +1,72 @@
+.floating-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; /* Space between icons */
+    z-index: 1000;
+  }
+  
+  /* Floating WhatsApp Icon */
+  .whatsapp-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+    background-color: #1EBE5D; /* Slightly darker green on hover */
+  }
+  
+  .whatsapp-icon svg {
+    width: 24px;
+    height: 24px;
+    color: white;
+  }
+  
+  /* Scroll-to-Top Icon */
+  .gg-chevron-up-r {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .gg-chevron-up-r:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+  }
+  
+  /* Scroll Arrow */
+  .gg-chevron-up-r::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(-45deg);
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%) rotate(-45deg);
+  }
+  

@@ -25,7 +25,7 @@ function PromotionCard() {
                             height: "580px"
                         }}>
                             <img
-                                src="https://picsum.photos/500/700?grayscale"
+                                src="/image/promotioncard.png"
                                 className="card-img"
                                 alt="..."/>
                             <div

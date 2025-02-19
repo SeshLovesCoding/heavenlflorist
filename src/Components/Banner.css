@@ -4,7 +4,7 @@
     margin: 50px 0;
     border: 0px none;
     border-radius: 20px;
-    background-color: gray;
+    background: url('/public/image/banner.png');
     position: relative;
 }
 
@@ -13,7 +13,7 @@
     color: var(--secondary-color) !important;  /* Icon color */
     background-color: white;  /* White background for the icon */
     border-radius: 50%;  /* Circular background */
-    padding: 10px;  /* Padding around the icon */
+    border: .1rem solid var(--secondary-color);
     font-size: 24px;  /* Control the icon size */
     display: inline-flex;  /* Use inline-flex for the icon container */
     justify-content: center;  /* Center the icon horizontally */
@@ -28,8 +28,8 @@
     align-items: center;
     flex-direction: row;
     position: absolute;
-    bottom: 80px;
-    left: 50px;
+    bottom: 60px;
+    left: 80px;
     width: 250px;
     height: 46px;
     border-radius: 20px;
@@ -40,6 +40,7 @@
   
   .whatsapp-button:hover {
     border: 1px solid var(--secondary-color);  /* Border color on hover */
+    color: var(--secondary-color);
   }
   
   /* Icon and Text inside button */
